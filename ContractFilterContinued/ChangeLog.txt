@@ -1,0 +1,67 @@
+﻿ChangeLog
+
+0.1.0
+		Initial release
+		Fixed bug where pausing game would open window
+		Fixed bug where when looking at all windows, only the buttons above the current would work
+		Added toggle to enable/disable contracts types without having to open any additional windows
+		Changed GUI colors
+		Fixed secondary windows to always line up the same way
+		Created constants to control window sizes
+		Resized tertiary windows
+		Removed toolbar button when not in career mode
+
+Original Contract Filter Changelog:
+v1.5.2:
+
+-Fixed OutofSync exception when closing EditAll window. Now properly closes and saves.
+
+-Fixed Bug with contracts being declined instead of deleted.
+
+-Re-added app buttons.
+
+v1.5.1:
+
+-fixed an NRE that happened at Main Menu scene switch
+
+v1.5:
+
+-Updated to work with KSP 1.1.2
+
+v1.4:
+
+-Updated to work with KSP 1.0.4
+
+v1.3:
+
+-Configured Contracts are now not shenanigans
+
+-Added in a throttle for contract acceptance rates
+
+-Fixed things
+
+-Added in hotkey to sort
+
+-Fixed Sandbox mode throwing errors
+
+-Added in new graphics for showing the state of the filter
+
+-I forget the rest...
+
+v1.2:
+
+-new toolbar icon
+
+-Added new Edit All button
+
+-Fixed some underlying save/loading bugs
+
+v1.1:
+
+-Changed name to Contract Filter
+
+-Fixed loading/saving bug
+
+-Fixed contracts being removed when they shouldn't be
+
+v1.0: Initial release
