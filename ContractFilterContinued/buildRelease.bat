@@ -39,7 +39,7 @@ del /Y %HOMEDIR%\install\GameData\ContractFilterContinued
 del /Y %HOMEDIR%\install\GameData\ContractFilterContinued\Textures
 
 
-copy /Y bin\Debug\ContractFilterContinued.dll "%HOMEDIR%\install\GameData\ContractFilterContinued\Plugins"
+copy /Y bin\Release\ContractFilterContinued.dll "%HOMEDIR%\install\GameData\ContractFilterContinued\Plugins"
 copy /Y ..\GameData\ContractFilterContinued\Textures\*.png    "%HOMEDIR%\install\GameData\ContractFilterContinued\Textures"
 copy /Y "ContractFilterContinued.version" "%HOMEDIR%\install\GameData\ContractFilterContinued"
 copy /Y "License.txt" "%HOMEDIR%\install\GameData\ContractFilterContinued"

@@ -1,5 +1,3 @@
-D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\ContractFilter.dll
-D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\ContractFilter.pdb
 D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\Assembly-CSharp.dll
 D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\KSPAssets.dll
 D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\KSPCore.dll
@@ -16,6 +14,8 @@ D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\
 D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\Mono.Security.dll
 D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\TDx.TDxInput.dll
 D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\UnityEngine.xml
-D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\obj\Release\ContractFilter.dll
-D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\obj\Release\ContractFilter.pdb
 D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\obj\Release\ContractFilterContinued.csprojResolveAssemblyReference.cache
+D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\ContractFilterContinued.dll
+D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\bin\Release\ContractFilterContinued.pdb
+D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\obj\Release\ContractFilterContinued.dll
+D:\Users\jbb\github\ContractFilterContinued\ContractFilterContinued\obj\Release\ContractFilterContinued.pdb

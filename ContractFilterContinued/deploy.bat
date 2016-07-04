@@ -31,7 +31,7 @@ mkdir %d%
 
 xcopy ..\GameData\ContractFilterContinued\Textures\*.png   %H%\GameData\ContractFilterContinued\Textures /Y
 copy ..\GameData\ContractfilterContinued\Plugins\MiniAVC.dll %H%\Gamedata\ContractFilterContinued
-copy bin\Debug\ContractFilter.dll %H%\Gamedata\ContractFilterContinued\Plugins
+copy bin\Debug\ContractfilterContinued.dll %H%\Gamedata\ContractFilterContinued\Plugins
 copy  ContractFilter.version %H%\Gamedata\ContractFilterContinued\ContractFilterContinued.version
 rem copy settings.cfg %H%\Gamedata\ContractFilterContinued\PluginData
 
