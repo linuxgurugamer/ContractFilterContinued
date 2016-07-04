@@ -56,6 +56,6 @@ copy /Y ..\GameData\ContractFilterContinued\Plugins\MiniAVC.dll  "%HOMEDIR%\inst
 %HOMEDRIVE%
 cd %HOMEDIR%\install
 
-set FILE="%RELEASEDIR%\ContractFilter-%VERSION%.zip"
+set FILE="%RELEASEDIR%\ContractFilterContinued-%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
-%ZIP% a -tzip %FILE% Gamedata\ContractFilter
+%ZIP% a -tzip %FILE% Gamedata\ContractFilterContinued
