@@ -140,8 +140,8 @@ namespace ContractFilter
 
         bool buttonNeedsInit = true;
         bool isSorting = false;
-        float sortTime = 1.0f;
-        String sortTimeString;
+        float sortTime = 0.2f;
+        String sortTimeString = "0.2";
         int currentTime = 0;
 
         int maxContracts = 2;
@@ -1856,7 +1856,15 @@ namespace ContractFilter
                     Debug.Log("Resetted");
                 }
                 GUILayout.Label("Time interval:");
-                sortTimeString = GUILayout.TextField(sortTime.ToString());
+                string s1 = sortTimeString;
+                sortTimeString = GUILayout.TextField(sortTimeString);
+                try
+                {
+                    float s = float.Parse(sortTimeString);
+                } catch (Exception e)
+                {
+                    sortTimeString = s1;
+                }
                 if (GUILayout.Button("Set"))
                 {
                     sortTime = float.Parse(sortTimeString);
@@ -1903,7 +1911,7 @@ namespace ContractFilter
                     statusString = "Loading...";
                     myLoad();
                     statusString = "Loaded!";
-                    //idleWatch.Restart();
+                    //idleWatch.Restart(); 
                     idleWatch.Reset();
                     idleWatch.Start();
                 }

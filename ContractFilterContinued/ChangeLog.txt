@@ -11,6 +11,12 @@
 		Resized tertiary windows
 		Removed toolbar button when not in career mode
 
+0.1.1
+		Fixed entry of sort time string to check for errors
+
+
+
+
 Original Contract Filter Changelog:
 v1.5.2:
 
